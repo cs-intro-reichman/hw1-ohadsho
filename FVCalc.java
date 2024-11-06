@@ -3,10 +3,10 @@ public class FVCalc {
 	public static void main(String[] args){
 
 		int currentValue = Integer.parseInt(args[0]);
-		Double rate = Double.parseDouble(args[1]);
+		double rate = Double.parseDouble(args[1]);
 		int n = Integer.parseInt(args[2]);
 
-		Double futureValue = currentValue* Math.pow(1+(rate, n);
+		double futureValue = currentValue* Math.pow(1+rate, n);
 		
 		System.out.println("After " + n + " years, " + currentValue + " saved at " + rate + " will yield " + (int)futureValue);
 
